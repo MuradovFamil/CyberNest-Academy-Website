@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CyberNest Academy"
+description = "CyberNest Academy-nin 6 aylıq Red Team kibertəhlükəsizlik kursunu tələbələrə və valideynlərə təqdim edən, qeydiyyata yönəldən Azərbaycan dilli rəsmi kurs saytı."
+version = "1.0.0"
+id = "artifacts/cybernest-academy"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21354
+
+[services.development]
+run = "pnpm --filter @workspace/cybernest-academy run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cybernest-academy", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cybernest-academy/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21354"
+BASE_PATH = "/"
