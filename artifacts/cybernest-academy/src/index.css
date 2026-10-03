@@ -292,13 +292,32 @@ button { color: inherit; }
 .contact-meta { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 22px; }
 .contact-meta span { display: flex; align-items: center; gap: 7px; color: #84928e; font: 9px var(--mono); }
 .contact-meta svg { color: var(--green); }
+.contact-direct { margin-top: 25px; }
+.contact-direct h3 { margin: 0 0 6px; color: #d4dcdf; font-size: 13px; font-weight: 600; }
+.contact-direct > p { margin: 0 0 12px; color: #89959b; font-size: 10px; line-height: 1.6; }
+.contact-methods--cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.contact-method--card { display: flex; min-width: 0; align-items: center; gap: 11px; padding: 11px 12px; border: 1px solid rgba(194,211,218,.14); border-radius: 6px; color: var(--ink); background: rgba(7,11,15,.28); text-decoration: none; }
+.contact-method--card:hover { border-color: rgba(118,228,174,.48); }
+.contact-method--card:focus-visible, .contact-method--compact:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+.contact-method__icon { display: grid; flex: 0 0 auto; place-items: center; color: var(--green); }
+.contact-method--card .contact-method__icon { width: 34px; height: 34px; border: 1px solid rgba(118,228,174,.2); border-radius: 5px; background: rgba(118,228,174,.055); }
+.contact-method__copy { display: grid; min-width: 0; gap: 2px; }
+.contact-method__label { color: #84928e; font: 8px var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+.contact-method__value { color: #d4dcdf; font-size: 11px; line-height: 1.4; overflow-wrap: anywhere; }
 
 .footer { border-top: 1px solid var(--line); background: #0b0f15; }
 .footer-main { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 25px 0; }
+.footer-brand { flex: 0 0 auto; }
 .footer-copy { color: #67747b; font-size: 10px; }
 .footer-links { display: flex; gap: 22px; }
 .footer-links a { color: #89959b; font-size: 10px; }
 .footer-links a:hover { color: var(--green); }
+.footer-contact-group { flex: 0 1 350px; }
+.footer-contact-heading { margin: 0 0 8px; color: #67747b; font: 8px var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.contact-methods--footer { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; }
+.contact-method--compact { display: flex; min-width: 0; align-items: center; gap: 7px; color: #89959b; text-decoration: none; }
+.contact-method--compact:hover { color: var(--green); }
+.contact-method--compact .contact-method__value { font-size: 9px; }
 .footer-bottom { padding: 14px 0; border-top: 1px solid rgba(255,255,255,.05); color: #5f6a70; font: 8px var(--mono); letter-spacing: .06em; }
 .footer-bottom .container { display: flex; justify-content: space-between; gap: 20px; }
 
@@ -372,6 +391,7 @@ button { color: inherit; }
   .contact-panel { grid-template-columns: 1fr; gap: 27px; padding: 25px; }
   .footer-main { align-items: flex-start; flex-direction: column; }
   .footer-links { gap: 16px; flex-wrap: wrap; }
+  .footer-contact-group { width: min(100%, 420px); flex-basis: auto; }
   .footer-bottom .container { flex-direction: column; }
 }
 @media (max-width: 390px) {
@@ -382,4 +402,7 @@ button { color: inherit; }
   .hero-note { display: grid; }
   .benefit-list { grid-template-columns: 1fr; }
   .terminal-content { font-size: 8px; }
+}
+@media (max-width: 480px) {
+  .contact-methods--cards { grid-template-columns: 1fr; }
 }

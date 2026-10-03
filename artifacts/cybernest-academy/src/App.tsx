@@ -11,10 +11,12 @@ import {
   GraduationCap,
   Menu,
   Network,
+  Phone,
   ShieldCheck,
   Terminal,
   X,
 } from 'lucide-react';
+import { SiInstagram, SiTiktok, SiWhatsapp } from 'react-icons/si';
 import { academyContent as content } from './content';
 
 function Brand() {
@@ -330,6 +332,68 @@ function FAQ() {
   );
 }
 
+function ContactMethods({ compact = false }: { compact?: boolean }) {
+  const methods = [
+    {
+      id: 'phone',
+      label: 'Telefon',
+      value: '+994 55 469 50 52',
+      href: 'tel:+994554695052',
+      icon: <Phone size={17} strokeWidth={1.8} />,
+      external: false,
+    },
+    {
+      id: 'whatsapp',
+      label: 'WhatsApp',
+      value: '+994 55 469 50 52',
+      href: 'https://wa.me/994554695052',
+      icon: <SiWhatsapp size={17} />,
+      external: true,
+    },
+    {
+      id: 'instagram',
+      label: 'Instagram',
+      value: '@cybernestacademy_',
+      href: 'https://www.instagram.com/cybernestacademy_/',
+      icon: <SiInstagram size={17} />,
+      external: true,
+    },
+    {
+      id: 'tiktok',
+      label: 'TikTok',
+      value: '@cybernestacademy',
+      href: 'https://www.tiktok.com/@cybernestacademy',
+      icon: <SiTiktok size={17} />,
+      external: true,
+    },
+  ];
+
+  return (
+    <nav
+      className={`contact-methods ${compact ? 'contact-methods--footer' : 'contact-methods--cards'}`}
+      aria-label={compact ? 'Footer əlaqə kanalları' : 'Əlaqə kanalları'}
+    >
+      {methods.map((method) => (
+        <a
+          key={method.id}
+          className={`contact-method${compact ? ' contact-method--compact' : ' contact-method--card'}`}
+          href={method.href}
+          target={method.external ? '_blank' : undefined}
+          rel={method.external ? 'noopener noreferrer' : undefined}
+          aria-label={`${method.label}: ${method.value}`}
+          data-testid={`link-${compact ? 'footer' : 'contact'}-${method.id}`}
+        >
+          <span className="contact-method__icon" aria-hidden="true">{method.icon}</span>
+          <span className="contact-method__copy">
+            <span className="contact-method__label">{method.label}</span>
+            <span className="contact-method__value">{method.value}</span>
+          </span>
+        </a>
+      ))}
+    </nav>
+  );
+}
+
 function Contact() {
   const [sent, setSent] = useState(false);
   const [channel, setChannel] = useState('');
@@ -348,6 +412,11 @@ function Contact() {
             <div className="contact-meta">
               <span><ShieldCheck size={13} /> MƏSULİYYƏTLİ TƏDRİS</span>
               <span><Code2 size={13} /> RED TEAM / 6 AY</span>
+            </div>
+            <div className="contact-direct">
+              <h3>Birbaşa əlaqə</h3>
+              <p>Kursa müraciət üçün sizə uyğun kanalı seçin.</p>
+              <ContactMethods />
             </div>
           </div>
           <form className="contact-form" onSubmit={handleSubmit} onChange={() => setSent(false)}>
@@ -376,10 +445,14 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-main">
-        <div><Brand /><p className="footer-copy">Kibertəhlükəsizlik öyrənməyə məsuliyyətli başlanğıc.</p></div>
+        <div className="footer-brand"><Brand /><p className="footer-copy">Kibertəhlükəsizlik öyrənməyə məsuliyyətli başlanğıc.</p></div>
         <nav className="footer-links" aria-label="Alt naviqasiya">
           <a href="#proqram">Red Team kursu</a><a href="#tedris-plani">Tədris planı</a><a href="#suallar">Suallar</a><a href="#qeydiyyat">Qeydiyyat</a>
         </nav>
+        <div className="footer-contact-group">
+          <h2 className="footer-contact-heading">Əlaqə</h2>
+          <ContactMethods compact />
+        </div>
       </div>
       <div className="footer-bottom"><div className="container"><span>© {new Date().getFullYear()} {content.brand.name} Academy</span><span>YALNIZ İCAZƏLİ TƏDRİS MÜHİTLƏRİ ÜÇÜN</span></div></div>
     </footer>
