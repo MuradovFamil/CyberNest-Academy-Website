@@ -22,7 +22,7 @@ import { academyContent as content } from './content';
 function Brand() {
   return (
     <a className="brand" href="#top" aria-label="CyberNest Academy — ana səhifə">
-      <span className="brand-mark" aria-hidden="true"><ShieldCheck size={19} strokeWidth={1.7} /></span>
+      <img className="brand-logo" src={`${import.meta.env.BASE_URL}logo.png`} alt="" />
       <span className="brand-name">Cyber<span>Nest</span> <span style={{ color: '#92a0a8', fontWeight: 500 }}>Academy</span></span>
     </a>
   );
