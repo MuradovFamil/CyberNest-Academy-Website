@@ -112,13 +112,40 @@ export const academyContent = {
     includes: ['6 aylıq Red Team tədris planı', 'Praktiki tapşırıq istiqamətləri', 'Qəbul və proqram detalları barədə məlumat'],
     formNote: 'Məbləğ və ödəniş şərtləri təsdiqlənənədək qiymət göstərilmir.',
   },
-  faqs: [
-    { question: 'Kursa başlamaq üçün əvvəlcədən təcrübə lazımdır?', answer: 'Proqram başlanğıc biliklərini mərhələli şəkildə qurmaq üçün təqdim olunur. Tələb olunan ilkin biliklər və qəbul meyarları akademiya tərəfindən dəqiqləşdirildikdən sonra qeydiyyat zamanı bildiriləcək.' },
-    { question: 'Tədris nə qədər davam edir?', answer: 'Red Team proqramı altı ay üçün nəzərdə tutulub. Həftəlik dərs sayı, saatlar və konkret başlanğıc tarixi təsdiqlənmiş cədvəl əsasında elan edilməlidir.' },
-    { question: 'Dərslər online, yoxsa əyani keçirilir?', answer: 'Tədrisin formatı və məkanı barədə məlumat hazırda dəqiqləşdirilir. Ətraflı məlumat üçün qeydiyyat formasından sorğu göndərə bilərsiniz.' },
-    { question: 'Laboratoriya tapşırıqları real sistemlərdə aparılır?', answer: 'Tapşırıqlar yalnız ayrılmış tədris laboratoriyalarında və ya açıq şəkildə icazə verilmiş mühitlərdə aparılır. İcazəsiz sistemlərdə yoxlama həm etik, həm də hüquqi baxımdan yolverilməzdir.' },
-    { question: 'Sertifikat verilirmi?', answer: 'Sertifikatın mövcudluğu və əldə etmə şərtləri rəsmi təsdiq tələb edir. Bu məlumat dəqiqləşənədək sertifikat vədi verilmir.' },
-    { question: 'Kursun qiyməti və qeydiyyat qaydası necədir?', answer: 'Təhsil haqqı və ödəniş planı təsdiqlənənədək göstərilmir. Sorğu göndərərək aktual qəbul və ödəniş məlumatlarını dəqiqləşdirə bilərsiniz.' },
+    faqs: [
+    {
+      question: 'Kursa başlamaq üçün əvvəlcədən təcrübə lazımdır?',
+      answer:
+        'Proqram başlanğıc səviyyədən başlayaraq mərhələli şəkildə qurulub. Əvvəlcədən peşəkar kibertəhlükəsizlik təcrübəsinin olması tələb olunmur.',
+    },
+    {
+      question: 'Tədris nə qədər davam edir?',
+      answer: 'Proqram 6 ay davam edir.',
+    },
+    {
+      question: 'Dərslər həftədə neçə dəfə keçirilir?',
+      answer: 'Dərslər həftədə 2 dəfə keçirilir və hər dərs 2 saat davam edir.',
+    },
+    {
+      question: 'Dərslər online, yoxsa əyani keçirilir?',
+      answer:
+        'Dərslər əyani və online formatda keçirilə bilər. Mövcud qrupun dərs formatı və qrafiki qeydiyyat zamanı dəqiqləşdirilir.',
+    },
+    {
+      question: 'Laboratoriya tapşırıqları necə keçirilir?',
+      answer:
+        'Praktiki tapşırıqlar təhlükəsiz və nəzarətli tədris laboratoriyalarında həyata keçirilir. Nəzəri biliklər praktiki məşğələlərlə möhkəmləndirilir.',
+    },
+    {
+      question: 'Sertifikat verilirmi?',
+      answer:
+        'Bəli. Proqramı uğurla tamamlayan və yekun imtahandan keçən iştirakçılara CyberNest Academy tərəfindən sertifikat təqdim olunur.',
+    },
+    {
+      question: 'Kursun qiyməti nə qədərdir?',
+      answer:
+        'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
+    },
   ],
   contact: {
     eyebrow: 'Növbəti addım',
