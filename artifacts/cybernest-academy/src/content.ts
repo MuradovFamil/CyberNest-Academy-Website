@@ -6,6 +6,7 @@ export const academyContent = {
     description:
       'CyberNest Academy-nin 6 aylıq Red Team proqramı ilə kibertəhlükəsizliyin əsaslarını, praktiki laboratoriyaları və etik hücum sınaqlarını kəşf edin.',
   },
+
   navigation: [
     { label: 'Akademiya', href: '#haqqimizda' },
     { label: 'Proqram', href: '#proqram' },
@@ -13,6 +14,7 @@ export const academyContent = {
     { label: 'Təlim formatı', href: '#format' },
     { label: 'Suallar', href: '#suallar' },
   ],
+
   hero: {
     eyebrow: 'Kibertəhlükəsizlikdə ilk addım',
     titleLine1: 'Təhlükəsizliyi',
@@ -20,9 +22,15 @@ export const academyContent = {
     titleLine3: 'öyrən.',
     description:
       'Red Team yanaşmasını etik çərçivədə, addım-addım və praktika ilə öyrənmək istəyənlər üçün altı aylıq tədris proqramı.',
-   meta: ['6 ay', 'Həftədə 2 dərs', '2 saat / dərs', 'Praktiki laboratoriyalar'], 
+    meta: [
+      '6 ay',
+      'Həftədə 2 dərs',
+      '2 saat / dərs',
+      'Praktiki laboratoriyalar',
+    ],
   },
-    introduction: {
+
+  introduction: {
     eyebrow: 'Akademiya haqqında',
     title: 'Maraqdan real bacarığa.',
     paragraphs: [
@@ -33,7 +41,8 @@ export const academyContent = {
     quote:
       'Kibertəhlükəsizliyi öyrənmək sadəcə alətləri bilmək deyil — sistemin necə düşündüyünü anlamaqdır.',
   },
-    course: {
+
+  course: {
     eyebrow: 'Əsas proqram',
     title: 'Red Team — sistemləri hücum tərəfdən anla.',
     description:
@@ -57,7 +66,8 @@ export const academyContent = {
       },
     ],
   },
-   curriculum: [
+
+  curriculum: [
     {
       month: '01-ci ay',
       title: 'Kibertəhlükəsizlik və şəbəkə əsasları',
@@ -83,11 +93,11 @@ export const academyContent = {
         'HTTP request/response, Burp Suite, OWASP Top 10 və veb tətbiqlərində əsas zəifliklərin təhlükəsiz laboratoriyalarda araşdırılması',
     },
     {
-  month: '05-ci ay',
-  title: 'Red Team metodologiyası və praktika',
-  detail:
-    'Ssenari əsaslı tapşırıqlar, sübutların toplanması və müdafiə ilə əlaqə',
-},
+      month: '05-ci ay',
+      title: 'Active Directory və Red Team',
+      detail:
+        'Windows domen mühiti, Active Directory əsasları, istifadəçi və qruplar, domen strukturu və Red Team yanaşması',
+    },
     {
       month: '06-cı ay',
       title: 'Praktiki Red Team layihəsi',
@@ -95,6 +105,7 @@ export const academyContent = {
         'Ssenari əsaslı laboratoriyalar, tapıntıların təhlili, sübutların sənədləşdirilməsi, hesabat hazırlanması və yekun praktiki layihə',
     },
   ],
+
   format: [
     {
       title: '6 aylıq proqram',
@@ -112,7 +123,8 @@ export const academyContent = {
       detail: 'FORMAT · ƏYANİ + ONLINE',
     },
   ],
-     certificate: {
+
+  certificate: {
     eyebrow: 'Sertifikat',
     title: 'Öyrəndiklərini təsdiqlə.',
     description:
@@ -120,24 +132,34 @@ export const academyContent = {
     disclaimer:
       'Sertifikat proqramın uğurla tamamlanması və yekun imtahandan keçilməsi şərti ilə təqdim olunur.',
   },
+
   instructor: {
     eyebrow: 'Təlimçi',
-    title: 'Təcrübə ilə öyrənmək.',
+    title: 'Real praktika. Sistemli tədris.',
     description:
-      'Proqramın təlimçi məlumatları — ad, iş təcrübəsi və peşəkar ixtisaslar — təsdiqləndikdən sonra burada dərc olunacaq. Qeydiyyatdan əvvəl təlimçi ilə tanışlıq imkanını soruşa bilərsiniz.',
-    note: 'Etibarlı məlumat təqdim edilmədiyi üçün bu ilkin versiyada təlimçi adı və peşəkar nailiyyətlər göstərilmir.',
+      'Tədrisin arxasında real praktika və təcrübə dayanır. Proqram kibertəhlükəsizlik və Red Team istiqamətində praktiki yanaşma əsasında keçirilir.',
+    note:
+      'Tədris prosesi nəzəri biliklərin praktiki laboratoriya məşğələləri ilə möhkəmləndirilməsinə əsaslanır.',
   },
+
   pricing: {
     eyebrow: 'Qeydiyyat',
-    title: 'Sizin üçün uyğun olub-olmadığını öyrənin.',
+    title: 'Kibertəhlükəsizliyə başlamağa hazırsan?',
     description:
-      'Proqram, qəbul şərtləri, dərs qrafiki və ödəniş barədə suallarınızı göndərin. Komanda ilə əlaqə kanalı və cavab müddəti təsdiqləndikdən sonra burada göstəriləcək.',
+      'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
     price: null as string | null,
-    priceLabel: 'Təhsil haqqı',
-    includes: ['6 aylıq Red Team tədris planı', 'Praktiki tapşırıq istiqamətləri', 'Qəbul və proqram detalları barədə məlumat'],
-    formNote: 'Məbləğ və ödəniş şərtləri təsdiqlənənədək qiymət göstərilmir.',
+    priceLabel: '',
+    includes: [
+      '6 aylıq Red Team proqramı',
+      'Praktiki laboratoriya məşğələləri',
+      'Əyani və online tədris imkanı',
+      'Yekun imtahandan sonra sertifikat',
+    ],
+    formNote:
+      'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
   },
-    faqs: [
+
+  faqs: [
     {
       question: 'Kursa başlamaq üçün əvvəlcədən təcrübə lazımdır?',
       answer:
@@ -149,7 +171,8 @@ export const academyContent = {
     },
     {
       question: 'Dərslər həftədə neçə dəfə keçirilir?',
-      answer: 'Dərslər həftədə 2 dəfə keçirilir və hər dərs 2 saat davam edir.',
+      answer:
+        'Dərslər həftədə 2 dəfə keçirilir və hər dərs 2 saat davam edir.',
     },
     {
       question: 'Dərslər online, yoxsa əyani keçirilir?',
@@ -172,7 +195,8 @@ export const academyContent = {
         'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
     },
   ],
-   contact: {
+
+  contact: {
     eyebrow: 'Müraciət et',
     title: 'Kibertəhlükəsizliyə başlamağa hazırsan?',
     description:
@@ -182,14 +206,18 @@ export const academyContent = {
     privacy:
       'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
   },
+
   contactDetails: {
     email: null as string | null,
     phone: null as string | null,
     location: null as string | null,
-    editableNote: 'Rəsmi əlaqə məlumatı təsdiqləndikdən sonra əlavə ediləcək.',
+    editableNote:
+      'Əlaqə məlumatları vasitəsilə proqram və qeydiyyat şərtləri barədə ətraflı məlumat əldə edə bilərsiniz.',
   },
+
   seo: {
     title: 'CyberNest Academy — Red Team kibertəhlükəsizlik kursu',
-    description: 'Altı aylıq Red Team proqramı: kibertəhlükəsizlik əsasları, etik sınaqlar və praktiki laboratoriyalar. Proqram və qeydiyyat barədə məlumat alın.',
+    description:
+      'Altı aylıq Red Team proqramı: kibertəhlükəsizlik əsasları, etik sınaqlar və praktiki laboratoriyalar. Proqram və qeydiyyat barədə məlumat alın.',
   },
 };
