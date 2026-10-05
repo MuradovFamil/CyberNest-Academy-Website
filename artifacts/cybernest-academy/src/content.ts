@@ -57,27 +57,44 @@ export const academyContent = {
       },
     ],
   },
-  curriculum: [
-    { month: '01-ci ay', title: 'Kibertəhlükəsizlik və şəbəkə təməlləri', detail: 'TCP/IP, DNS, HTTP, şəbəkə topologiyası və təhlükəsizlik anlayışları' },
-    { month: '02-ci ay', title: 'Linux, Windows və komanda sətri', detail: 'Əməliyyat sistemləri, fayl icazələri, proseslər və əsas skriptləşdirmə' },
-    { month: '03-cü ay', title: 'Kəşfiyyat və hücum səthinin xəritələnməsi', detail: 'Açıq mənbə kəşfiyyatı, skanlama və nəticələrin məsuliyyətli təhlili' },
-    { month: '04-cü ay', title: 'Veb tətbiq təhlükəsizliyi', detail: 'Sorğu-cavab modeli, tipik zəiflik sinifləri və təhlükəsiz laboratoriya sınaqları' },
-    { month: '05-ci ay', title: 'Red Team metodologiyası və praktika', detail: 'Ssenari əsaslı tapşırıqlar, sübutların toplanması və müdafiə ilə əlaqə' },
-    { month: '06-cı ay', title: 'Yekun layihə və peşəkar hesabat', detail: 'İcazəli mühitdə ssenari, tapıntıların prioritetləşdirilməsi və təqdimat' },
+   curriculum: [
+    {
+      month: '01-ci ay',
+      title: 'Kibertəhlükəsizlik və şəbəkə əsasları',
+      detail:
+        'Kibertəhlükəsizliyə giriş, OSI modeli, TCP/IP, UDP, portlar, DNS, HTTP/HTTPS, şəbəkə anlayışları və əsas təhlükəsizlik prinsipləri',
+    },
+    {
+      month: '02-ci ay',
+      title: 'Linux, Windows və sistem təhlükəsizliyi',
+      detail:
+        'Linux və Windows mühitləri, komanda sətri, fayl icazələri, proseslər, xidmətlər və privilege escalation əsasları',
+    },
+    {
+      month: '03-cü ay',
+      title: 'Reconnaissance və Server Pentesting',
+      detail:
+        'Kəşfiyyat, enumeration, Nmap, xidmətlərin analizi, zəifliklərin müəyyənləşdirilməsi və server təhlükəsizliyinin praktiki yoxlanılması',
+    },
+    {
+      month: '04-cü ay',
+      title: 'Web Pentesting və tətbiq təhlükəsizliyi',
+      detail:
+        'HTTP request/response, Burp Suite, OWASP Top 10 və veb tətbiqlərində əsas zəifliklərin təhlükəsiz laboratoriyalarda araşdırılması',
+    },
+    {
+      month: '05-ci ay',
+      title: 'Active Directory və Red Team',
+      detail:
+        'Windows domen mühiti, Active Directory əsasları, istifadəçi və qrup strukturları, domen təhlükəsizliyi və Red Team yanaşması',
+    },
+    {
+      month: '06-cı ay',
+      title: 'Praktiki Red Team layihəsi',
+      detail:
+        'Ssenari əsaslı laboratoriyalar, tapıntıların təhlili, sübutların sənədləşdirilməsi, hesabat hazırlanması və yekun praktiki layihə',
+    },
   ],
-  practice: {
-    eyebrow: 'Öyrən, sına, təhlil et',
-    title: 'Bilik laboratoriyada möhkəmlənir.',
-    description:
-      'Praktiki tapşırıqlar anlayışları real iş axınına yaxınlaşdırır. İştirakçılar təhlükəsiz, nəzarətli ssenarilərdə müşahidə edir, yoxlayır və nəticələrini əsaslandırırlar.',
-    benefits: [
-      'İzolyasiya edilmiş tədris laboratoriyaları',
-      'Ssenari əsaslı praktiki tapşırıqlar',
-      'Tapıntıların sənədləşdirilməsi',
-      'Etik və hüquqi çərçivənin öyrənilməsi',
-    ],
-    disclaimer: 'Tapşırıqlar yalnız tədris üçün ayrılmış və ya açıq icazə verilmiş mühitlərdə yerinə yetirilməlidir.',
-  },
   format: [
     {
       title: '6 aylıq proqram',
