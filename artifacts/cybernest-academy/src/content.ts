@@ -84,9 +84,9 @@ export const academyContent = {
     },
     {
   month: '05-ci ay',
-  title: 'Active Directory və Red Team',
+  title: 'Red Team metodologiyası və praktika',
   detail:
-    'Windows domen mühiti, Active Directory əsasları, istifadəçi və qruplar, domen strukturu və Red Team yanaşması',
+    'Ssenari əsaslı tapşırıqlar, sübutların toplanması və müdafiə ilə əlaqə',
 },
     {
       month: '06-cı ay',
