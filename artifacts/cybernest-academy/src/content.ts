@@ -83,11 +83,11 @@ export const academyContent = {
         'HTTP request/response, Burp Suite, OWASP Top 10 və veb tətbiqlərində əsas zəifliklərin təhlükəsiz laboratoriyalarda araşdırılması',
     },
     {
-      month: '05-ci ay',
-      title: 'Active Directory və Red Team',
-      detail:
-        'Windows domen mühiti, Active Directory əsasları, istifadəçi və qrup strukturları, domen təhlükəsizliyi və Red Team yanaşması',
-    },
+  month: '05-ci ay',
+  title: 'Active Directory və Red Team',
+  detail:
+    'Windows domen mühiti, Active Directory əsasları, istifadəçi və qruplar, domen strukturu və Red Team yanaşması',
+},
     {
       month: '06-cı ay',
       title: 'Praktiki Red Team layihəsi',
