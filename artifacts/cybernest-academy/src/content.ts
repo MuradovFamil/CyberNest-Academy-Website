@@ -71,9 +71,21 @@ export const academyContent = {
     disclaimer: 'Tapşırıqlar yalnız tədris üçün ayrılmış və ya açıq icazə verilmiş mühitlərdə yerinə yetirilməlidir.',
   },
   format: [
-    { title: 'Mərhələli tədris', text: 'Altı ay ərzində baza biliklərindən tətbiqi tapşırıqlara doğru ardıcıl inkişaf.', detail: 'MÜDDƏT · 6 AY' },
-    { title: 'Nəzəriyyə + praktika', text: 'Mövzuların izahı, laboratoriya məşqləri və öyrənilənləri möhkəmləndirən tapşırıqlar.', detail: 'YANAŞMA · TƏTBİQİ' },
-    { title: 'Tədris kanalı', text: 'Dərslərin keçirilmə məkanı, saatları və canlı/online formatı barədə məlumat qəbul zamanı dəqiqləşdirilir.', detail: 'QRAFİK · DƏQİQLƏŞDİRİLİR' },
+    {
+      title: '6 aylıq proqram',
+      text: 'Red Team proqramı 6 ay davam edir və sistemli şəkildə mərhələli tədris əsasında qurulub.',
+      detail: 'MÜDDƏT · 6 AY',
+    },
+    {
+      title: 'Həftədə 2 dərs · 2 saat',
+      text: 'Dərslər həftədə 2 dəfə keçirilir və hər dərs 2 saat davam edir. Nəzəriyyə praktiki laboratoriya məşğələləri ilə tamamlanır.',
+      detail: 'QRAFİK · HƏFTƏDƏ 2 DƏRS',
+    },
+    {
+      title: 'Əyani və online',
+      text: 'Dərslər əyani və online formatda keçirilə bilər. Mövcud qrupun dərs formatı və qrafiki qeydiyyat zamanı dəqiqləşdirilir.',
+      detail: 'FORMAT · ƏYANİ + ONLINE',
+    },
   ],
   certificate: {
     eyebrow: 'Proqramın tamamlanması',
