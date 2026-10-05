@@ -87,7 +87,7 @@ export const academyContent = {
       detail: 'FORMAT · ƏYANİ + ONLINE',
     },
   ],
-  certificate: {
+    certificate: {
     eyebrow: 'Proqramın tamamlanması',
     title: 'Öyrəndiklərinizi təsdiqləyən sənəd.',
     description:
