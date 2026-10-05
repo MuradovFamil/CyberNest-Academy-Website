@@ -105,7 +105,20 @@ export const academyContent = {
         'Ssenari əsaslı laboratoriyalar, tapıntıların təhlili, sübutların sənədləşdirilməsi, hesabat hazırlanması və yekun praktiki layihə',
     },
   ],
-
+ practice: {
+    eyebrow: 'Öyrən, sına, təhlil et',
+    title: 'Bilik laboratoriyada möhkəmlənir.',
+    description:
+      'Praktiki tapşırıqlar anlayışları real iş axınına yaxınlaşdırır. İştirakçılar təhlükəsiz və nəzarətli ssenarilərdə öyrəndiklərini tətbiq edir və nəticələrini təhlil edirlər.',
+    benefits: [
+      'İzolyasiya edilmiş tədris laboratoriyaları',
+      'Ssenari əsaslı praktiki tapşırıqlar',
+      'Tapıntıların sənədləşdirilməsi',
+      'Etik və hüquqi çərçivənin öyrənilməsi',
+    ],
+    disclaimer:
+      'Tapşırıqlar yalnız tədris üçün ayrılmış və ya açıq icazə verilmiş mühitlərdə yerinə yetirilməlidir.',
+  },
   format: [
     {
       title: '6 aylıq proqram',
