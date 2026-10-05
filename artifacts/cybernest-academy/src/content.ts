@@ -33,20 +33,27 @@ export const academyContent = {
     quote:
       'Kibertəhlükəsizliyi öyrənmək sadəcə alətləri bilmək deyil — sistemin necə düşündüyünü anlamaqdır.',
   },
-  course: {
+    course: {
     eyebrow: 'Əsas proqram',
-    title: 'Red Team: etik hücum sınaqlarına giriş',
+    title: 'Red Team — sistemləri hücum tərəfdən anla.',
     description:
-      'Şəbəkə və sistem əsaslarından başlayaraq kəşfiyyat, zəifliklərin təhlili, sınaq metodologiyası və peşəkar hesabat yazılışına doğru irəliləyən altı aylıq tədris xətti.',
-    topics: ['Şəbəkə əsasları', 'Linux və Windows', 'Kəşfiyyat', 'Veb təhlükəsizliyi', 'Hesabatlılıq'],
+      '6 aylıq proqram kibertəhlükəsizliyin əsaslarından başlayaraq Linux və Windows, şəbəkə, kəşfiyyat, veb təhlükəsizliyi və Red Team metodologiyasına qədər mərhələli şəkildə irəliləyir.',
+    topics: [
+      'Kibertəhlükəsizlik əsasları',
+      'Şəbəkə və protokollar',
+      'Linux və Windows',
+      'Kəşfiyyat və analiz',
+      'Veb təhlükəsizliyi',
+      'Red Team metodologiyası',
+    ],
     features: [
       {
-        title: 'Aydın öyrənmə ardıcıllığı',
-        text: 'Mövzular bir-birinin üzərində qurulur; hər mərhələdə əvvəlki biliklərə qayıtmaq və möhkəmləndirmək mümkündür.',
+        title: 'Nəzəriyyədən praktikaya',
+        text: 'Hər mövzu izahla kifayətlənmir. Öyrənilən biliklər praktiki laboratoriya tapşırıqları ilə möhkəmləndirilir.',
       },
       {
-        title: 'Etik və icazəli praktika',
-        text: 'Bütün sınaqlar tədris laboratoriyaları və icazəli mühitlər daxilində aparılır. İcazəsiz sistemlərdə testlərə yer yoxdur.',
+        title: 'Mərhələli Red Team yanaşması',
+        text: 'Proqram baza biliklərindən başlayaraq daha mürəkkəb təhlükəsizlik mövzularına doğru sistemli şəkildə inkişaf edir.',
       },
     ],
   },
