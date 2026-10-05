@@ -22,15 +22,16 @@ export const academyContent = {
       'Red Team yanaşmasını etik çərçivədə, addım-addım və praktika ilə öyrənmək istəyənlər üçün altı aylıq tədris proqramı.',
    meta: ['6 ay', 'Həftədə 2 dərs', '2 saat / dərs', 'Praktiki laboratoriyalar'], 
   },
-  introduction: {
+    introduction: {
     eyebrow: 'Akademiya haqqında',
-    title: 'Maraqdan bacarığa — aydın bir yol.',
+    title: 'Maraqdan real bacarığa.',
     paragraphs: [
-      'CyberNest Academy kibertəhlükəsizlik sahəsinə maraq göstərən öyrənənlər üçün nəzəriyyəni praktika ilə birləşdirən tədris mühiti yaratmaq məqsədi daşıyır.',
-      'Proqramın mərkəzində Red Team düşüncə tərzi dayanır: sistemləri icazəli və nəzarətli şəraitdə yoxlamaq, zəiflikləri anlamaq və nəticələri məsuliyyətlə çatdırmaq.',
-      'Təcrübəniz yoxdursa belə, proqramın başlanğıc mərhələləri baza biliklərini qurmağa kömək edir. Qəbul şərtləri və dərs cədvəli barədə qeydiyyat zamanı ətraflı məlumat veriləcək.',
+      'CyberNest Academy kibertəhlükəsizliyi sadəcə nəzəri şəkildə öyrətmək deyil, öyrənilən bilikləri praktiki tapşırıqlarla möhkəmləndirmək üçün yaradılıb.',
+      'Proqramın əsas istiqaməti Red Team yanaşmasıdır. İştirakçılar sistemlərin necə işlədiyini, zəifliklərin necə yarandığını və təhlükəsizlik baxımından necə təhlil edildiyini mərhələli şəkildə öyrənirlər.',
+      'Əvvəlcədən peşəkar kibertəhlükəsizlik təcrübəsinin olması tələb olunmur. Tədris baza biliklərindən başlayaraq daha mürəkkəb mövzulara doğru inkişaf edir.',
     ],
-    quote: 'Məqsəd yalnız alətləri tanımaq deyil — onları nə vaxt və hansı məsuliyyətlə istifadə etdiyini anlamaqdır.',
+    quote:
+      'Kibertəhlükəsizliyi öyrənmək sadəcə alətləri bilmək deyil — sistemin necə düşündüyünü anlamaqdır.',
   },
   course: {
     eyebrow: 'Əsas proqram',
