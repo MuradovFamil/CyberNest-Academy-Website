@@ -147,13 +147,15 @@ export const academyContent = {
         'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
     },
   ],
-  contact: {
-    eyebrow: 'Növbəti addım',
-    title: 'Gəlin, əvvəlcə suallarınızı aydınlaşdıraq.',
-    description: 'Adınızı və əlaqə üçün istifadə etmək istədiyiniz kanalı qeyd edin. Bu ilkin versiyada forma serverə məlumat göndərmir; əlaqə inteqrasiyası tamamlandıqdan sonra aktivləşdirilməlidir.',
-    channelPlaceholder: 'E-poçt və ya telefon — əlaqə kanalı seçin',
-    channels: ['E-poçt', 'Telefon / WhatsApp'],
-    privacy: 'Məlumatlar bu demo versiyada yadda saxlanmır və göndərilmir.',
+   contact: {
+    eyebrow: 'Müraciət et',
+    title: 'Kibertəhlükəsizliyə başlamağa hazırsan?',
+    description:
+      '6 aylıq Red Team proqramı, praktiki laboratoriyalar və sistemli tədris ilə kibertəhlükəsizlik sahəsində biliklərini inkişaf etdir.',
+    channelPlaceholder: 'Əlaqə kanalını seçin',
+    channels: ['Telefon', 'WhatsApp', 'Instagram', 'TikTok'],
+    privacy:
+      'Proqram və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə əlaqə saxlayın.',
   },
   contactDetails: {
     email: null as string | null,
