@@ -20,7 +20,7 @@ export const academyContent = {
     titleLine3: 'öyrən.',
     description:
       'Red Team yanaşmasını etik çərçivədə, addım-addım və praktika ilə öyrənmək istəyənlər üçün altı aylıq tədris proqramı.',
-    meta: ['6 aylıq proqram', 'Praktiki laboratoriyalar', 'Etik tədris yanaşması'],
+   meta: ['6 ay', 'Həftədə 2 dərs', '2 saat / dərs', 'Praktiki laboratoriyalar'], 
   },
   introduction: {
     eyebrow: 'Akademiya haqqında',
