@@ -101,13 +101,37 @@ export const academyContent = {
     formNote: 'Məbləğ və ödəniş şərtləri təsdiqlənənədək qiymət göstərilmir.',
   },
   faqs: [
-    { question: 'Kursa başlamaq üçün əvvəlcədən təcrübə lazımdır?', answer: 'Proqram başlanğıc biliklərini mərhələli şəkildə qurmaq üçün təqdim olunur. Tələb olunan ilkin biliklər və qəbul meyarları akademiya tərəfindən dəqiqləşdirildikdən sonra qeydiyyat zamanı bildiriləcək.' },
-    { question: 'Tədris nə qədər davam edir?', answer: 'Red Team proqramı altı ay üçün nəzərdə tutulub. Həftəlik dərs sayı, saatlar və konkret başlanğıc tarixi təsdiqlənmiş cədvəl əsasında elan edilməlidir.' },
-    { question: 'Dərslər online, yoxsa əyani keçirilir?', answer: 'Tədrisin formatı və məkanı barədə məlumat hazırda dəqiqləşdirilir. Ətraflı məlumat üçün qeydiyyat formasından sorğu göndərə bilərsiniz.' },
-    { question: 'Laboratoriya tapşırıqları real sistemlərdə aparılır?', answer: 'Tapşırıqlar yalnız ayrılmış tədris laboratoriyalarında və ya açıq şəkildə icazə verilmiş mühitlərdə aparılır. İcazəsiz sistemlərdə yoxlama həm etik, həm də hüquqi baxımdan yolverilməzdir.' },
-    { question: 'Sertifikat verilirmi?', answer: 'Sertifikatın mövcudluğu və əldə etmə şərtləri rəsmi təsdiq tələb edir. Bu məlumat dəqiqləşənədək sertifikat vədi verilmir.' },
-    { question: 'Kursun qiyməti və qeydiyyat qaydası necədir?', answer: 'Təhsil haqqı və ödəniş planı təsdiqlənənədək göstərilmir. Sorğu göndərərək aktual qəbul və ödəniş məlumatlarını dəqiqləşdirə bilərsiniz.' },
-  ],
+  {
+    question: 'Kursa başlamaq üçün əvvəlcədən təcrübə lazımdır?',
+    answer:
+      'Xeyr. Proqram kibertəhlükəsizliyin əsaslarından başlayır və mövzular mərhələli şəkildə daha mürəkkəb praktiki tapşırıqlara doğru inkişaf edir. Əvvəlcədən IT və ya kibertəhlükəsizlik təcrübəsinin olması üstünlükdür, lakin məcburi deyil.',
+  },
+  {
+    question: 'Tədris nə qədər davam edir?',
+    answer:
+      'Proqram 6 ay davam edir. Həftədə 2 dərs keçirilir və hər dərsin müddəti 2 saatdır. Tədris nəzəriyyə və praktiki laboratoriya məşğələlərinin birləşməsindən ibarətdir.',
+  },
+  {
+    question: 'Dərslər online, yoxsa əyani keçirilir?',
+    answer:
+      'Dərslərdə həm əyani, həm də online iştirak imkanı mövcuddur. İştirakçı özünə uyğun formatı seçə bilər.',
+  },
+  {
+    question: 'Laboratoriya tapşırıqları real sistemlərdə aparılır?',
+    answer:
+      'Praktiki məşğələlər xüsusi hazırlanmış və ya icazə verilmiş tədris laboratoriyalarında aparılır. İştirakçılar real sistemlərə zərər vermədən, təhlükəsiz və nəzarətli mühitdə Red Team yanaşmalarını tətbiq edirlər.',
+  },
+  {
+    question: 'Sertifikat verilirmi?',
+    answer:
+      'Bəli. Proqramı uğurla tamamlayan və yekun imtahandan keçən iştirakçılara CyberNest Academy tərəfindən sertifikat təqdim olunur.',
+  },
+  {
+    question: 'Kursun qiyməti və qeydiyyat qaydası necədir?',
+    answer:
+      'Təhsil haqqı və qeydiyyat şərtləri barədə ətraflı məlumat üçün bizimlə Telefon, WhatsApp, Instagram və ya TikTok vasitəsilə əlaqə saxlaya bilərsiniz.',
+  },
+],
   contact: {
     eyebrow: 'Növbəti addım',
     title: 'Gəlin, əvvəlcə suallarınızı aydınlaşdıraq.',
