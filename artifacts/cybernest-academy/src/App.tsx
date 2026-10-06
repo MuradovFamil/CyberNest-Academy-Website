@@ -395,46 +395,29 @@ function ContactMethods({ compact = false }: { compact?: boolean }) {
 }
 
 function Contact() {
-  const [sent, setSent] = useState(false);
-  const [channel, setChannel] = useState('');
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    setSent(true);
-  }
   return (
     <section className="contact-section" id="qeydiyyat">
       <div className="container">
         <div className="contact-panel">
           <div>
-            <div className="eyebrow">{content.contact.eyebrow}</div>
-            <h2>{content.contact.title}</h2>
-            <p>{content.contact.description}</p>
+            <div className="eyebrow">Növbəti addım</div>
+            <h2>Kibertəhlükəsizliyə başlamağa hazırsan?</h2>
+            <p>
+              6 aylıq Red Team proqramı, praktiki laboratoriyalar və sistemli
+              tədris ilə kibertəhlükəsizlik sahəsində biliklərini inkişaf etdir.
+            </p>
+
             <div className="contact-meta">
               <span><ShieldCheck size={13} /> MƏSULİYYƏTLİ TƏDRİS</span>
               <span><Code2 size={13} /> RED TEAM / 6 AY</span>
             </div>
+
             <div className="contact-direct">
               <h3>Birbaşa əlaqə</h3>
               <p>Kursa müraciət üçün sizə uyğun kanalı seçin.</p>
               <ContactMethods />
             </div>
           </div>
-          <form className="contact-form" onSubmit={handleSubmit} onChange={() => setSent(false)}>
-            <label className="field-label" htmlFor="lead-name">Adınız
-              <input id="lead-name" name="name" type="text" placeholder="Adınızı daxil edin" autoComplete="name" required />
-            </label>
-            <label className="field-label" htmlFor="lead-contact">{content.contact.channelPlaceholder}
-              <input id="lead-contact" name="contact" type="text" placeholder="məs. e-poçt ünvanı" autoComplete="email" required />
-            </label>
-            <label className="field-label" htmlFor="lead-channel">Sizə hansı kanalla cavab verilsin?
-              <select id="lead-channel" value={channel} onChange={(event) => { setChannel(event.target.value); setSent(false); }} required>
-                <option value="" disabled>Seçin</option>
-                {content.contact.channels.map((item) => <option key={item} value={item}>{item}</option>)}
-              </select>
-            </label>
-            <button className="btn btn-primary" type="submit">Proqram barədə soruş <ArrowRight size={15} /></button>
-            {sent ? <p className="form-message" role="status">Forma yoxlanıldı. Bu ilkin versiyada məlumat serverə göndərilmir və saxlanmır. Əlaqə inteqrasiyası tamamlandıqdan sonra sorğunuz göndərilə biləcək.</p> : <p className="form-note">{content.contact.privacy}</p>}
-          </form>
         </div>
       </div>
     </section>
