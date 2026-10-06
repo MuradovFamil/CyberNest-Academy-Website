@@ -75,12 +75,13 @@ export const academyContent = {
     { title: 'Nəzəriyyə + praktika', text: 'Mövzuların izahı, laboratoriya məşqləri və öyrənilənləri möhkəmləndirən tapşırıqlar.', detail: 'YANAŞMA · TƏTBİQİ' },
     { title: 'Tədris kanalı', text: 'Dərslərin keçirilmə məkanı, saatları və canlı/online formatı barədə məlumat qəbul zamanı dəqiqləşdirilir.', detail: 'QRAFİK · DƏQİQLƏŞDİRİLİR' },
   ],
-  certificate: {
+ certificate: {
     eyebrow: 'Proqramın tamamlanması',
-    title: 'Öyrəndiklərinizi təsdiqləyən sənəd.',
+    title: 'Öyrəndiklərinizi təsdiqləyən sertifikat.',
     description:
-      'Proqramı və yekun tapşırıqları uğurla tamamlayan iştirakçılar üçün sertifikatın təqdim edilib-edilmədiyi və onun şərtləri qeydiyyatdan əvvəl dəqiqləşdiriləcək.',
-    disclaimer: 'Sertifikatın növü, verilmə meyarları və tanınma statusu barədə dəqiq məlumat akademiya tərəfindən təsdiqləndikdən sonra bu bölmədə yenilənməlidir.',
+      'Proqramı uğurla tamamlayan və yekun imtahandan keçən iştirakçılara CyberNest Academy tərəfindən sertifikat təqdim olunur.',
+    disclaimer:
+      'Sertifikat proqramın uğurla tamamlanması və yekun imtahandan keçilməsi əsasında təqdim edilir.',
   },
   instructor: {
     eyebrow: 'Təlimçi',
