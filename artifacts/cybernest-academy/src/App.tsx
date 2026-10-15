@@ -241,7 +241,7 @@ function Certificate() {
             <div className="cert-seal"><FileCheck2 size={18} /></div>
             <small>CYBERNEST ACADEMY</small>
             <h3>Proqramı tamamladı</h3>
-            <p>NÜMUNƏ VİZUAL · SERTİFİKAT VƏDİ DEYİL</p>
+            <p>YEKUN İMTAHAN ƏSASINDA SERTİFİKAT</p>
           </div>
         </div>
         <div className="cert-copy">
