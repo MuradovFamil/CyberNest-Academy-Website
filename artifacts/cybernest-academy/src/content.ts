@@ -54,7 +54,7 @@ export const academyContent = {
     { month: '02-ci ay', title: 'Linux, Windows və komanda sətri', detail: 'Əməliyyat sistemləri, fayl icazələri, proseslər və əsas skriptləşdirmə' },
     { month: '03-cü ay', title: 'Kəşfiyyat və hücum səthinin xəritələnməsi', detail: 'Açıq mənbə kəşfiyyatı, skanlama və nəticələrin məsuliyyətli təhlili' },
     { month: '04-cü ay', title: 'Veb tətbiq təhlükəsizliyi', detail: 'Sorğu-cavab modeli, tipik zəiflik sinifləri və təhlükəsiz laboratoriya sınaqları' },
-    { month: '05-ci ay', title: 'Red Team metodologiyası və praktika', detail: 'Ssenari əsaslı tapşırıqlar, sübutların toplanması və müdafiə ilə əlaqə' },
+    { month: '05-ci ay', title: 'Active Directory və Red Team metodologiyası', detail: 'Windows domenləri, Active Directory əsasları, istifadəçi və qrup icazələri, domen təhlükəsizliyi və praktiki Red Team ssenariləri' },
     { month: '06-cı ay', title: 'Yekun layihə və peşəkar hesabat', detail: 'İcazəli mühitdə ssenari, tapıntıların prioritetləşdirilməsi və təqdimat' },
   ],
   practice: {
