@@ -264,9 +264,35 @@ function Instructor() {
           <p>Keyfiyyətli tədris üçün təlimçinin kim olduğunu və təcrübəsini bilmək vacibdir.</p>
         </div>
         <article className="instructor-card">
-          <div className="instructor-portrait">
-            <div><div className="portrait-placeholder"><GraduationCap size={34} strokeWidth={1.25} /></div><p>RƏSMİ MƏLUMAT<br />TƏSDİQLƏNİR</p></div>
-          </div>
+         <div className="instructor-portrait">
+  <div style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: "14px",
+    width: "100%"
+  }}>
+    <img
+      src="/famil-muradov.jpeg"
+      alt="Famil Muradov"
+      style={{
+        width: "100%",
+        maxWidth: "320px",
+        aspectRatio: "4 / 5",
+        objectFit: "cover",
+        objectPosition: "center",
+        display: "block",
+        borderRadius: "12px"
+      }}
+    />
+    <div style={{ textAlign: "center" }}>
+      <h3 style={{ margin: "0 0 6px" }}>Famil Muradov</h3>
+      <p style={{ margin: 0 }}>
+        CyberNest Academy-nin rəhbəri | Kibertəhlükəsizlik üzrə mütəxəssis
+      </p>
+    </div>
+  </div>
+</div> 
           <div className="instructor-copy">
             <div className="eyebrow">TƏLİMÇİ MƏLUMATI</div>
             <h2>{content.instructor.title}</h2>
