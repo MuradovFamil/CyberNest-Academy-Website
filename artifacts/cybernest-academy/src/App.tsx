@@ -568,6 +568,7 @@ function App() {
         <Course />
         <Curriculum />
         <Practice />
+        <Skills />
         <Format />
         <Certificate />
         <Instructor />
