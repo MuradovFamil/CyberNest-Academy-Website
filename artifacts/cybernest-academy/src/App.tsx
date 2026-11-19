@@ -197,16 +197,36 @@ function Practice() {
           <p>{content.practice.description}</p>
           <ul className="benefit-list">{content.practice.benefits.map((benefit) => <li key={benefit}><span className="check-mark"><Check size={14} /></span>{benefit}</li>)}</ul>
         </div>
+              <div
+        className="practice-gallery"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 260px), 1fr))",
+          gap: "18px"
+        }}
+      >
         <div className="practice-photo">
- <img
-  src="/students-lab.jpg"
-  alt="CyberNest Academy tələbələri kompüter laboratoriyasında"
-/>
-  <div className="practice-photo-caption">
-    <span>CYBERNEST ACADEMY</span>
-    <span>LEARN · PRACTICE · GROW</span>
-  </div>
-</div>
+          <img
+            src="/students-lab.jpg"
+            alt="CyberNest Academy tələbələri kompüter laboratoriyasında"
+          />
+          <div className="practice-photo-caption">
+            <span>CYBERNEST ACADEMY</span>
+            <span>LEARN · PRACTICE · GROW</span>
+          </div>
+        </div>
+
+        <div className="practice-photo">
+          <img
+            src="/ferdi-laboratoriya.jpg"
+            alt="Fərdi laboratoriya işi"
+          />
+          <div className="practice-photo-caption">
+            <span>CYBERNEST ACADEMY</span>
+            <span>FƏRDİ LABORATORİYA İŞİ</span>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
   );
