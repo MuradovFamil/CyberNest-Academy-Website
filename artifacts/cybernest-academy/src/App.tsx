@@ -198,10 +198,10 @@ function Practice() {
           <ul className="benefit-list">{content.practice.benefits.map((benefit) => <li key={benefit}><span className="check-mark"><Check size={14} /></span>{benefit}</li>)}</ul>
         </div>
         <div className="practice-photo">
-  <img
-    src="/images/students-lab.jpg"
-    alt="CyberNest Academy tələbələri kompüter laboratoriyasında"
-  />
+ <img
+  src="/students-lab.jpg"
+  alt="CyberNest Academy tələbələri kompüter laboratoriyasında"
+/>
   <div className="practice-photo-caption">
     <span>CYBERNEST ACADEMY</span>
     <span>LEARN · PRACTICE · GROW</span>
