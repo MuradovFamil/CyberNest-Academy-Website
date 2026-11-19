@@ -232,6 +232,53 @@ function Practice() {
   );
 }
 
+function Skills() {
+  const skills = [
+    {
+      title: "Şəbəkə və sistem bilikləri",
+      description:
+        "TCP/IP, DNS, Linux və Windows mühitində işləmək.",
+      number: "01",
+    },
+    {
+      title: "Kəşfiyyat və analiz",
+      description:
+        "İnformasiya toplamaq, hücum səthini müəyyənləşdirmək və nəticələri təhlil etmək.",
+      number: "02",
+    },
+    {
+      title: "Veb təhlükəsizliyi",
+      description:
+        "Veb zəifliklərini anlamaq və təhlükəsiz laboratoriyalarda yoxlamaq.",
+      number: "03",
+    },
+    {
+      title: "Peşəkar hesabat",
+      description:
+        "Tapıntıları sənədləşdirmək və təhlükəsizlik problemlərini izah etmək.",
+      number: "04",
+    },
+  ];
+
+  return (
+    <section className="section skills-section" id="bacariqlar">
+      <div className="container">
+        <div className="eyebrow">KURSUN NƏTİCƏLƏRİ</div>
+        <h2>Kursun sonunda hansı bacarıqları əldə edəcəksiniz?</h2>
+        <div className="skills-grid">
+          {skills.map((skill) => (
+            <div className="skill-card" key={skill.number}>
+              <span className="skill-number">{skill.number}</span>
+              <h3>{skill.title}</h3>
+              <p>{skill.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Format() {
   return (
     <section className="section format-section" id="format">
