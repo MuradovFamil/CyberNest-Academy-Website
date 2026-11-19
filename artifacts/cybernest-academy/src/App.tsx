@@ -197,15 +197,16 @@ function Practice() {
           <p>{content.practice.description}</p>
           <ul className="benefit-list">{content.practice.benefits.map((benefit) => <li key={benefit}><span className="check-mark"><Check size={14} /></span>{benefit}</li>)}</ul>
         </div>
-        <div className="lab-card" aria-label="İzolyasiya edilmiş laboratoriya şəbəkəsinin sxematik təsviri">
-          <div className="lab-head"><span>LAB NETWORK / ISOLATED</span><span>STATUS: READY</span></div>
-          <div className="lab-visual" aria-hidden="true">
-            <div className="orbit" /><div className="orbit two" /><div className="orbit three" />
-            <i className="node n1" /><i className="node n2" /><i className="node n3" /><i className="node n4" />
-            <div className="lab-core"><Fingerprint size={30} strokeWidth={1.4} /></div>
-          </div>
-          <div className="lab-foot"><span>AUTHORIZED TRAINING ONLY</span><span>●&nbsp; {content.practice.disclaimer}</span></div>
-        </div>
+        <div className="practice-photo">
+  <img
+    src="/images/students-lab.jpg"
+    alt="CyberNest Academy tələbələri kompüter laboratoriyasında"
+  />
+  <div className="practice-photo-caption">
+    <span>CYBERNEST ACADEMY</span>
+    <span>LEARN · PRACTICE · GROW</span>
+  </div>
+</div>
       </div>
     </section>
   );
